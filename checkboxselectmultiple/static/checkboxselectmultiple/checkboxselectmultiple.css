@@ -1,0 +1,27 @@
+/*
+  Converting select multiple into many checkboxes.
+  Original code taken from Stefano Contini
+  http://www.abidibo.net/blog/2013/04/10/convert-select-multiple-widget-checkboxes-django-admin-form/
+
+  Refactored by Venelin Stoykov
+*/
+.mcheckbox-container {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.mcheckbox-table {
+  margin-right: 20px;
+  width: 100%;
+}
+.mcheckbox-table tr {
+  border: 1px solid #eee;
+}
+.mcheckbox-table tr:hover {
+  background: #eee;
+}
+.mcheckbox-label {
+  width: 100% !important;
+}
